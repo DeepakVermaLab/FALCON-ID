@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.log
+
+# Large datasets and generated feature stores
+DATASETS/
+PREPROCESSED_DATA/
+CLIENT_DATASETS/
+*.parquet
+*.feather
+*.tar
+*.tar.xz
+*.zip
+
+# Model/checkpoint artifacts
+*.keras
+*.h5
+*.pt
+*.pth
+*.ckpt
+Models/
+models/
+
