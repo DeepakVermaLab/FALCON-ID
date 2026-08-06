@@ -12,7 +12,6 @@ This package was prepared from the linked Google Doc and associated Drive/Colab 
 - FALCON-ID implementation notebooks covering local IDS, federated baseline, FALCON-ID FL, clustering/specialized FL, FedProx personalization, differential privacy, and simulation.
 - Final result notebooks.
 - Small CSV, JSON, and NPY result artifacts.
-- Download/source manifest under `docs/source_links.json`.
 
 ## Excluded
 
@@ -20,6 +19,3 @@ This package was prepared from the linked Google Doc and associated Drive/Colab 
 - Preprocessed dataset folders.
 - Model binaries/checkpoints such as `.keras`, `.h5`, `.pt`, and `.pth`.
 - `.ipynb_checkpoints`, caches, virtual environments, and macOS metadata.
-
-Use the Drive links recorded in `docs/source_links.json` for large external assets.
-
