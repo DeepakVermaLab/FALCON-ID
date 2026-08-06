@@ -1,0 +1,2 @@
+dataset,num_clients,num_rounds,local_epochs,batch_size,l2_clip,noise_multiplier,test_loss,test_acc
+Combined,10,3,1,4096,1.0,0.7,4.1064300537109375,0.061058513820171356
