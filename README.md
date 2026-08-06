@@ -25,7 +25,6 @@ FALCON-ID/
 ├── IMPLEMENTATION/              # Core modeling and FALCON-ID notebooks
 ├── RESULTS/                     # Final result notebooks and small artifacts
 ├── SIMULATION/                  # Energy-aware FL simulation notebook
-├── docs/                        # Source link manifest
 ├── requirements.txt
 └── PROJECT_STRUCTURE.md
 ```
@@ -81,13 +80,7 @@ Additional exploratory notebooks are kept in `IMPLEMENTATION/notebooks/08_*`, `0
 
 ## Data and Artifacts
 
-Raw datasets and preprocessed datasets are not stored in this repository because they are large. Model binaries are also excluded from Git history. Source Drive links and file IDs are recorded in:
-
-```text
-docs/source_links.json
-```
-
-Small result summaries are included under `RESULTS/`.
+Raw datasets and preprocessed datasets are not stored in this repository because they are large. Model binaries are also excluded from Git history. Small result summaries are included under `RESULTS/`.
 
 ## Validation
 
