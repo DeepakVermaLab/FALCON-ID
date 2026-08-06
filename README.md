@@ -82,6 +82,30 @@ Additional exploratory notebooks are kept in `IMPLEMENTATION/notebooks/08_*`, `0
 
 Raw datasets and preprocessed datasets are not stored in this repository because they are large. Model binaries are also excluded from Git history. Small result summaries are included under `RESULTS/`.
 
+## Research Paper
+
+This implementation supports the IEEE paper:
+
+[Falcon: Federated Incremental Learning Framework for Intrusion Detection in Heterogeneous Consumer-Centric Internet of Things](https://ieeexplore.ieee.org/abstract/document/11509308)
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@ARTICLE{11509308,
+  author={Yang, Pengyi and Gu, Xinyao and Cai, Xiao and He, Wenhai and Li, Mianjie and Zhao, Bowen and Qiao, Cheng},
+  journal={IEEE Transactions on Consumer Electronics},
+  title={Falcon: Federated Incremental Learning Framework for Intrusion Detection in Heterogeneous Consumer-Centric Internet of Things},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Payloads;Military aircraft;Space technology;Feeds;Antennas;Broadcasting;Broadcast technology;MIMICs;Millimeter wave integrated circuits;Monolithic integrated circuits;Federated learning;Incremental learning;Intrusion detection;Consumer-centric internet of things;Imbalanced classification;Knowledge distillation;Memory replay;Distribution drift},
+  doi={10.1109/TCE.2026.3690484}
+}
+```
+
 ## Validation
 
 Before upload, notebooks were normalized and checked with `nbformat`; JSON and CSV files were parsed; and old local or Drive-specific path prefixes were replaced with `/users/`.
